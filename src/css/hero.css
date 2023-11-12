@@ -1,0 +1,40 @@
+.hero {
+    position: relative;
+    width: 1000px;
+    height: 250px;
+}
+.zapatilla {
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 371px;
+    height: 388px;
+    
+    background-color: transparent;
+}
+
+.fondoHero {  
+    border-radius: 20px;
+    background: #4D4C51;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.30);
+    display: flex;
+    align-items: center;
+}
+
+.fondoHero img {
+    width: 457px;
+    height: 222px;
+    flex-shrink: 0;
+}
+
+.fondoHero h1 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.80);
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    z-index: 10;
+}

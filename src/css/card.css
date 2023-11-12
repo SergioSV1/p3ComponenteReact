@@ -1,0 +1,60 @@
+.card {
+    position: relative;
+    width: 276px;
+    height: 342px;
+    margin-top: 40px;
+    margin-right: 60px;
+   /*  margin-bottom: 40px; */
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: linear-gradient(147deg, #2A2745 0%, rgba(42, 39, 69, 0.40) 100%);    
+}
+
+.card img {
+    position: absolute;
+    width: 247px;
+    height: 296px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+
+.card .datos{
+    transition: .6s ease;
+}
+
+.card:hover .datos{
+    visibility: visible; 
+}
+
+
+.card .datos {
+    position: absolute;
+    width: 247px;
+    height: 296px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    visibility: hidden;
+}
+
+.card .datos span {
+    color: #2F2C4A;
+    text-align: left;
+    margin-left: 20px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    cursor: pointer;
+}
+
